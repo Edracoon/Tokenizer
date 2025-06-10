@@ -2,9 +2,12 @@
   "name": "tokenizer",
   "scripts": {
     "compile": "npx hardhat compile",
-    "console": "npx hardhat console",
     "clean": "npx hardhat clean",
-    "deploy": "npx hardhat run scripts/deploy.js"
+    "console": "npx hardhat console",
+    "console:sepolia": "npx hardhat console --network sepolia",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "test:sepolia": "npx hardhat run scripts/test.js --network sepolia"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",

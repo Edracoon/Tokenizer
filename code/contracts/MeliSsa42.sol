@@ -14,7 +14,7 @@ contract MeliSsa42 is ERC20, Ownable {
 
     /// @notice Constructor that mints the initial supply to the deployer's address
     /// @param initialSupply Initial token supply, in units of token * (10 ** decimals())
-    constructor(uint256 initialSupply) ERC20("MeliSsa42", "ML42") Ownable(msg.sender) {
+    constructor(uint256 initialSupply) ERC20("MeliSsa42", "MS42") Ownable(msg.sender) {
         _mint(msg.sender, initialSupply);
     }
 
