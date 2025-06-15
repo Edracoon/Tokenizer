@@ -10,4 +10,6 @@ Blockchain technology allows for the creation and distribution of unique digital
 
 ### 🤨 So, why wait?
 
-Start your journey towards creating your very own token on the blockchain today! 🤡
+Start your journey towards creating your very own token on the blockchain today!
+
+##### Lets create our very own pre-revenue decentralized blockchain AI wrapper B2B SaaS start-up now ! (🤡)
