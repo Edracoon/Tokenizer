@@ -1,8 +1,8 @@
 const { ethers } = require("hardhat");
 
-const CONTRACT_ADDRESS = "0xbA41e539f898B86B0939cB47D876CdF75b2EB54c" // Lastly deployed Sepolia contract address
-const OWNER_ADDRESS = "0x68061f79c7EaAe9FDA9F62cA0a8D5a80cc670D6E" // Metamask user address
-const OTHER_USER_ADDRESS = "0xFCCbf4B2eEeEb18Cd95bb4d6bD02e852825D0013" // Another user address from metamask
+const CONTRACT_ADDRESS = "0x..." // Lastly deployed Sepolia contract address
+const OWNER_ADDRESS = "0x..." // Metamask user address
+const OTHER_USER_ADDRESS = "0x..." // Another user address from metamask
 
 async function main() {
     // 1️⃣ Vérifier le totalSupply
