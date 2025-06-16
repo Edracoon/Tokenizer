@@ -1,0 +1,8 @@
+services:
+  devbox:
+    build: .
+    container_name: tokenizer
+    volumes:
+      - .:/app
+    working_dir: /app/code
+    tty: true
